@@ -36,3 +36,7 @@ Thumbs.db
 # Seguridad: no subir credenciales locales
 wp-config.php
 .env
+
+# Configuración de JetBrains/WebStorm/PHPStorm
+.idea/
+*.iml
