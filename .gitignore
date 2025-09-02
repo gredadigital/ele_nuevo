@@ -1,0 +1,38 @@
+# Ignora todo por defecto en la raíz
+/*
+
+# Pero sigue estos archivos/carpetas:
+!.gitignore
+!wp-content/
+
+# Dentro de wp-content, ignora todo:
+wp-content/*
+
+# …excepto themes y plugins (para poder seleccionar los tuyos):
+!wp-content/themes/
+!wp-content/plugins/
+
+# Ignora uploads y caches
+wp-content/uploads/
+wp-content/cache/
+
+# Ignora TODOS los themes menos el tuyo
+wp-content/themes/*
+!wp-content/themes/ele/
+
+# Ignora TODOS los plugins menos el tuyo (ajusta el nombre cuando lo crees)
+wp-content/plugins/*
+!wp-content/plugins/ele-custom/
+
+# Node y builds dentro de tu tema/plugin
+wp-content/**/node_modules/
+wp-content/**/assets/css/tw.build.css
+
+# Logs, sistemas
+*.log
+.DS_Store
+Thumbs.db
+
+# Seguridad: no subir credenciales locales
+wp-config.php
+.env

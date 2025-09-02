@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* Indica a Tailwind 4 dónde escanear contenido (rutas relativas a este CSS) */
+@source "../../*.php" "../../**/*.php";
